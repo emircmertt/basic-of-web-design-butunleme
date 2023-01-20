@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&display=swap');     
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+body{
+    background-image: url(beyaz.jpg);
+    height: 100vh;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-image: url(beyaz.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.header-logo{
+font-size: 16px;
+letter-spacing: 2px;
+border-bottom: 5px solid #000;
+border-radius: 35px;
+
+}
+ul{
+    display: flex;
+
+}
+
+li{
+   margin-left: 27px;
+
+}
+li:first-child{
+    margin-right: 70px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction:column ;
+}
+
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+li img {
+width: 300px;
+height: 200px;
+margin-left: 400px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+P {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
